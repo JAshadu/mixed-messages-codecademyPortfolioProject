@@ -1,8 +1,8 @@
 const greetings = ['Hi', 'Bonjour', 'Hola', 'Guten Tag', 'Ciao', 'Namaste', 'Ni hao', 'Konnichi wa']
 let a = Math.floor(Math.random() * greetings.length)
 let theGreeting = greetings[a]
-const languages = ['England', 'France', 'Spain', 'Germany', 'Italy', 'India', 'China', 'Japan']
-let theLanguage = languages[a]
+const countries = ['England', 'France', 'Spain', 'Germany', 'Italy', 'India', 'China', 'Japan']
+let theCountry = countries[a]
 
 const names = ['Amanda', 'Benny', 'Charlie', 'Dennis', 'Elijah', 'Finland', 'Gerald', 'Hassan', 'Ijenu', 'Jacob', 'Karl', 'Liam', 'Mary', 'Nana', 'Oscar', 'Piper', 'Quincy', 'Raymond', 'Steven', 'Tilly', 'Unice', 'Victor', 'Wapol', 'Xavier', 'Yewande', 'Zack']
 let b = Math.floor(Math.random() * names.length)
@@ -26,4 +26,4 @@ let dFoods = foods.toSpliced(d, 1)
 let e = Math.floor(Math.random() * dFoods.length)
 let leastFav = dFoods[e]
 
-console.log(`${theGreeting}! My name is ${theName} and I was born in ${theLanguage}. My favourite color is ${theColor}. According to my partner ${partner}, the sport I am best at is ${theSport}. My favourite food is ${theFood} and my least favourite food is ${leastFav}.`)
+console.log(`${theGreeting}! My name is ${theName} and I was born in ${theCountry}. My favourite color is ${theColor}. According to my partner ${partner}, the sport I am best at is ${theSport}. My favourite food is ${theFood} and my least favourite food is ${leastFav}.`)
