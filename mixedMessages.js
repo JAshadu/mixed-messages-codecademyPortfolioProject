@@ -26,4 +26,5 @@ let dFoods = foods.toSpliced(d, 1)
 let e = Math.floor(Math.random() * dFoods.length)
 let leastFav = dFoods[e]
 
-console.log(`${theGreeting}! My name is ${theName} and I was born in ${theCountry}. My favourite color is ${theColor}. According to my partner ${partner}, the sport I am best at is ${theSport}. My favourite food is ${theFood} and my least favourite food is ${leastFav}.`)
+const theMessage = `${theGreeting}! My name is ${theName} and I was born in ${theCountry}. My favourite color is ${theColor}. According to my partner ${partner}, the sport I am best at is ${theSport}. My favourite food is ${theFood} and my least favourite food is ${leastFav}.`
+console.log(theMessage)
